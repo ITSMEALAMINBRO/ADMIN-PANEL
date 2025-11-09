@@ -318,22 +318,22 @@
   <script>  
   document.addEventListener('DOMContentLoaded', () => {  
     /* ===== Firebase (unchanged) ===== */  
-    const firebaseConfig = {
-  apiKey: "AIzaSyDMB0EdRB1NCVa2nsJmzb9gxSIZ5z-zVlI",
-  authDomain: "max-money-2k07.firebaseapp.com",
-  databaseURL: "https://max-money-2k07-default-rtdb.firebaseio.com",
-  projectId: "max-money-2k07",
-  storageBucket: "max-money-2k07.firebasestorage.app",
-  messagingSenderId: "203429901779",
-  appId: "1:203429901779:web:745f5a46e5ea16babceb26",
-  measurementId: "G-3YGPYQEXFY"
+const firebaseConfig = {
+  apiKey: "AIzaSyBzRYcWnWxfpuxh0dMTuScN6BY-V-hPaB4",
+  authDomain: "clipcash-bot.firebaseapp.com",
+  databaseURL: "https://clipcash-bot-default-rtdb.firebaseio.com",
+  projectId: "clipcash-bot",
+  storageBucket: "clipcash-bot.firebasestorage.app",
+  messagingSenderId: "857224019027",
+  appId: "1:857224019027:web:4f64cc402b9cfda8769aa6",
+  measurementId: "G-75VHT9CMWN"
 };
     firebase.initializeApp(firebaseConfig);  
   
     const db   = firebase.database();  
     const auth = firebase.auth();  
   
-    const ADMIN_UID = 'mokfZOd1wRb5lp291NRt7sshXkU2'; // শুধুমাত্র এই UID অ্যাডমিন  
+    const ADMIN_UID = 'yi7p6bA1MAX7CqQoOXqAOTLeTTC2'; // শুধুমাত্র এই UID অ্যাডমিন  
   
     const mainContent = document.getElementById('main-content');  
     const pageTitle   = document.getElementById('page-title');  
@@ -515,7 +515,7 @@
       </div>  
       <div class="form-group">  
         <label>সাপোর্ট ইমেইল</label>  
-        <input type="email" id="supportEmail" placeholder="support@bootex.app"  
+        <input type="email" id="supportEmail" placeholder="support@clipcash.app"  
                value="${support.email || ''}">  
       </div>  
   
